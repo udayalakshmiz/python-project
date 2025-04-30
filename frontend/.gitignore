@@ -1,0 +1,104 @@
+node_modules
+dist
+package-lock.json
+yarn.lock
+.DS_Store
+.vscode
+.idea
+.env
+*.log
+*.tmp
+*.swp
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask / Python environment
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# pip and pyenv
+pip-log.txt
+pip-delete-this-directory.txt
+.pyenv/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+*.iml
+*.iws
+*.ipr
+.pydevproject
+
+# VS Code settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# dotenv
+.env
+.env.*
+
+# Gunicorn
+gunicorn.conf.py
